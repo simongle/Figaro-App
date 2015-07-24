@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails app designed to connect clients and barbers. It will feature payment processing via First Data, and the Full Calender jQuery gem
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.2.1
 
-* System dependencies
+* Rails version 4.2.3
 
-* Configuration
+* This uses SQLite3 in development, and PostgreSQL in production
 
-* Database creation
+* Extensive tests exist for the user model, to run them use: bundle rake test:model
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Update: 7/20 contains user Model and test suite
