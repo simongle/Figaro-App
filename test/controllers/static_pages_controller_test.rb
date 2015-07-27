@@ -3,7 +3,7 @@ require 'test_helper'
 class StaticPagesControllerTest < ActionController::TestCase
 
   def setup
-    @base_title = "Ruby on Rails Figaro App"
+    @base_title = "Figaro App"
   end
 
   test "should get home" do
