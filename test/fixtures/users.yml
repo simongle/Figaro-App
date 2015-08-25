@@ -8,3 +8,8 @@ michael:
   name: Michael Example
   email: michael@example.com
   password_digest: <%= User.digest('password') %>
+
+fidel:
+  name: Fidel Castro
+  email: fidel@havana.cuba
+  password_digest: <%= User.digest('password') %>

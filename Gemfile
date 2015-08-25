@@ -24,6 +24,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+# Enable pagination of long queries
+gem 'will_paginate',           '3.0.7'
+
+# ...And associated bootstrap styles
+gem 'bootstrap-will_paginate', '0.0.10'
+
 # Use Bootstrap
 gem 'bootstrap-sass', '~> 3.3.5'
 
